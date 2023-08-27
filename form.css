@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.h1{
+    color: rgb(19, 110, 133);
+}
+body{
+    background: url('BG5.jpg') ;
+    background-position:center;
+    min-height: 100vh;
+}
+.container{
+    border: 2px solid teal;
+    text-align: center; 
+    position: absolute;
+    top: 120px;
+    width: 400px;
+    height: 400px;
+    left: 550px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+.input{
+   position: relative;
+    height: 50px;
+    padding: 10px,20px,;
+    border: 5px;
+    width: 300px;
+    font-size: large;
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 10px;
+   
+}
+.inboxes{
+    padding: 10px;
+   
+}
+.password{
+    position: relative;
+    padding: 20px;
+    left:8px;
+   
+}
+.logii{
+    font-size: large;
+    height: 50px;
+    width: 180px;
+    border: 2px solid rgb(59, 19, 180);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.logii:hover{
+    cursor: pointer;
+    background-color: #db9494;
+    box-shadow:10px 10px 0px rgb(13, 2, 2);
+}
+.bottom{
+    padding: 20px;
+}
+.low{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.eye{
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    left: -34px;
+    
+    /* border: 3px solid black; */
+
+   
+}
+#eyeopen{
+    display: none;
+}
